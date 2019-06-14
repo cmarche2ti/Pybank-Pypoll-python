@@ -8,7 +8,7 @@ max_profit = 0
 min_profit = 0
 max_date = ""
 min_date = ""
-
+#comment here
 with open(file_path, "r") as f:
     reader = csv.reader(f)
     next(reader)
